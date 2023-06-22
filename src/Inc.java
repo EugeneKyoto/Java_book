@@ -1,4 +1,4 @@
-public class Inc {
+public class Inc { // Инкремент.
     public static void main(String args[]){
         int i = 10;
 
