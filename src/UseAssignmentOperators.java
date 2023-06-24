@@ -13,7 +13,7 @@ public class UseAssignmentOperators {
         System.out.println("\nДобрые люди из компании 'Экстра' подарили нам 53 кролика!\nКоличество кроликов: " + number_of_bunny);
 
         number_of_bunny *= 2;
-        System.out.println("\nПопуляция вырасла в двое!\nКоличество кроликов: " + number_of_bunny);
+        System.out.println("\nПопуляция выросла в двое!\nКоличество кроликов: " + number_of_bunny);
 
         number_of_bunny -= 10;
         System.out.println("\nДесяток крольчат забрали домой наши обыватели.\nКоличество кроликов: " + number_of_bunny);
