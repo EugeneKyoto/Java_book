@@ -1,4 +1,4 @@
-import static java.lang.System.*;
+import static java.lang.System.*; //Импортировать всё из пакета.
 import java.util.Scanner;
 public class CheckPassword {
     public static void main(String args[]) {
@@ -13,10 +13,10 @@ public class CheckPassword {
 
         if (myPassword.equals("java")){ // Можно как в питоне myPassword == "java". Лучше equals().
             out.print("Вход в систему выполнен успешно!\nНе забудьте проверить свои письма!\nХорошего дня!");
-        }
-        else{
+        } // Введёный пароль эквивалентен >>> ("java")
+        else {
             out.println("Введён неверный пароль!\nПопробуйте ещё раз");
         }
-
+        my_scan.close();
     }
 }
